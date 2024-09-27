@@ -6,7 +6,6 @@ This project is a backend API for managing inventory items, built using the Djan
 ## Table of Contents
 
 - [Objective](#objective)
-- [Requirements](#requirements)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
@@ -20,23 +19,13 @@ This project is a backend API for managing inventory items, built using the Djan
 
 The goal is to provide an inventory management system that supports creating, reading, updating, and deleting (CRUD) items, with JWT-based authentication and Redis caching for improved performance.
 
-## Requirements
-
-- **Python 3.x**
-- **Django 3.x or 4.x**
-- **Django Rest Framework**
-- **PostgreSQL**
-- **Redis**
-- **Django-JWT**
-- **Django Test Framework**
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd inventory_management_api
-\`\`\`
+```
 
 ### 2. Install Dependencies
 Create and activate a virtual environment:
