@@ -62,7 +62,7 @@ python manage.py makemigrations
 Ensure Redis is running before starting the server.
 ```bash
 # On Windows:
-redis-cli ping  # If it returns PONG the redis is running
+redis-cli ping  # If it returns PONG then redis is running
 ```
 
 ### 6. Run the Development Server
@@ -80,6 +80,7 @@ Register a user and retrieve a JWT token for authentication:
 ```bash
 POST /api/auth/register/
 POST /api/auth/token/
+# Pass {"username":"","password":""} in body as JSON to get the token
 ```
 Include the token in the Authorization header for all other requests:
 ```
